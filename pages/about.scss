@@ -1,0 +1,22 @@
+@media screen and (max-width: 800px) {
+  .about-container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .about-info {
+    width: 100%;
+  }
+}
+
+.about-title {
+  margin: 30px 0 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}

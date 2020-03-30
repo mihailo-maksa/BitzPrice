@@ -1,0 +1,79 @@
+.navbar-brand {
+  font-size: 2em;
+  font-weight: bold; }
+  @media screen and (max-width: 800px) {
+    .navbar-brand {
+      margin-left: 30px; } }
+
+.nav-link {
+  margin-right: 25px;
+  font-size: 1.25em; }
+
+.footer {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.copyright {
+  font-size: 1em;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: 8px; }
+
+
+@media screen and (max-width: 800px) {
+  .about-container {
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: auto; }
+  .about-info {
+    width: 100%; } }
+
+.about-title {
+  margin: 30px 0 20px; }
+
+a:hover {
+  text-decoration: none; }
+
+.badge {
+  margin: 0 10px; }
+
+.list-group {
+  width: 100%;
+  text-align: center; }
+
+.prices-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 40px; }
+
+@media screen and (max-width: 800px) {
+  .list-group {
+    width: 140%; }
+  .form-control {
+    width: 140%; } }
+
+.rate {
+  text-decoration: underline; }
+
+h1,
+p {
+  text-align: center; }
+
+
+/*# sourceMappingURL=styles.chunk.css.map*/

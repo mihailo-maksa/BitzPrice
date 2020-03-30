@@ -1,0 +1,32 @@
+.badge {
+  margin: 0 10px;
+}
+
+.list-group {
+  width: 100%;
+  text-align: center;
+}
+
+.prices-container {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  margin-top: 40px;
+}
+
+@media screen and (max-width: 800px) {
+  .list-group {
+    width: 140%;
+  }
+
+  .form-control {
+    width: 140%;
+  }
+}
+
+.rate {
+  text-decoration: underline;
+}
